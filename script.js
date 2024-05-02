@@ -2,7 +2,7 @@
     "use strict";
   
     const resultContainerEl = document.querySelector(".my-container");
-    const name = prompt("Upisite ime drzave koju trazite, na engleskom: ");
+    const name = prompt("Input country name: ");
     const endpoint = `https://restcountries.com/v3.1/name/${name}`;
   
     fetch(endpoint, { method: "GET" })
